@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="center">
+    <div class="div1">
+    <form action="/action_page.php">
+
+        <label for="mNeve">Megrendelő neve:</label>
+        <input type="text" id="mNeve" name="mNeve" value=""><br>
+        <label for="mCim">Megrendelő címe:</label>
+        <input type="text" id="mCim" name="mCim" value=""><br>
+ 
+        <label for="phone">Megrendelő telefonszáma: </label>
+        <input type="tel" id="phone" name="phone" value="+36 "><br><br>
+        <input type="button" value="Elküld" onclick="myFunction()"><br>
+      
+    </div>
+    <div class="div2">
+        <b>Visszaigazolás!</b>  
+        <p>Név: <span id="visszaigazol_nev">?</span></p>
+        <p>Cím: <span id="visszaigazol_cim">?</span></p>
+        <p> Telefon: <span id="visszaigazol_tel">?</span></p>
+     </div>
+    </div>
+</form> 
+</body>
+</html>

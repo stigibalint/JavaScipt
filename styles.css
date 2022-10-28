@@ -1,0 +1,45 @@
+body{
+    font-size: 25px;
+}
+.div1{
+    background-color:rgb(209, 193, 207);
+    width: 30rem;
+    height: 15rem;
+    border-radius: 8px;
+    padding: 5px;
+}
+input[type=button] {
+    width: 35%;
+    background-color: #fefffe;
+    border: 1px solid black;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    
+    cursor: pointer;
+    margin-left: 9.5rem;
+  }
+  input[type=text]{
+    height: 1.2rem;
+  }
+  input[type=tel]{
+    height: 1.2rem;
+  }
+
+  .div2{
+    margin-top: 2rem;
+    background-color:rgb(209, 193, 207);
+    width: 30rem;
+    height: 15rem;
+    border-radius: 8px;
+    text-align: center;
+  }
+
+  .center{
+    margin-left: 35%;
+  }
+
+  b{ 
+    font-size:40px;
+    background-color:white;
+  }
